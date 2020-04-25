@@ -23,4 +23,4 @@ def read_json_write_text():
     with open(input_file, 'r') as input:
         input_content = json.load(input)
         with open(output_file, 'w') as output:
-            output.write(inpuy_content["name"] + "'s  are \n")
+            output.write(input_content["name"] + "'s  are \n")
