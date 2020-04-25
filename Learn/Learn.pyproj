@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{59dea611-7830-4c8d-9199-cf77c55a933f}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>my_split.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="collections_ex.py" />
+    <Compile Include="conditions.py" />
+    <Compile Include="date.py" />
+    <Compile Include="decorator_ex.py" />
+    <Compile Include="environment_ex.py" />
+    <Compile Include="errorhandling.py" />
+    <Compile Include="functions.py" />
+    <Compile Include="Helloworld.py" />
+    <Compile Include="json_ex.py" />
+    <Compile Include="loops.py" />
+    <Compile Include="module_ex.py" />
+    <Compile Include="my_split.py" />
+    <Compile Include="Numbers.py" />
+    <Compile Include="package_ex.py" />
+    <Compile Include="StandardPlot.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>env</Id>
+      <Version>3.8</Version>
+      <Description>env (Python 3.8 (64-bit))</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
