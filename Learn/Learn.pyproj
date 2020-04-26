@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{59dea611-7830-4c8d-9199-cf77c55a933f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>my_split.py</StartupFile>
+    <StartupFile>seven_segment_display.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -30,12 +30,18 @@
     <Compile Include="errorhandling.py" />
     <Compile Include="functions.py" />
     <Compile Include="Helloworld.py" />
+    <Compile Include="input_validate_int.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="json_ex.py" />
     <Compile Include="loops.py" />
     <Compile Include="module_ex.py" />
     <Compile Include="my_split.py" />
     <Compile Include="Numbers.py" />
     <Compile Include="package_ex.py" />
+    <Compile Include="seven_segment_display.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="StandardPlot.py" />
   </ItemGroup>
   <ItemGroup>
