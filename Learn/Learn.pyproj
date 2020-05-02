@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{59dea611-7830-4c8d-9199-cf77c55a933f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>seven_segment_display.py</StartupFile>
+    <StartupFile>tic_tac_toe.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,8 +22,14 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="collatz_hypothesis.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="collections_ex.py" />
     <Compile Include="conditions.py" />
+    <Compile Include="converters_sample.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="date.py" />
     <Compile Include="decorator_ex.py" />
     <Compile Include="environment_ex.py" />
@@ -43,6 +49,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="StandardPlot.py" />
+    <Compile Include="tic_tac_toe.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Interpreter Include="env\">
