@@ -1,3 +1,6 @@
 Plural/*
 /Learn/env
-/Learn/.vs/Learn/v16
+/Learn/.vs
+*.log
+/Learn/test.xml
+/Learn/phone_contacts.csv

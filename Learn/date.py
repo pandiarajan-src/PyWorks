@@ -1,5 +1,5 @@
 '''Experiment on date, time and year fields'''
-from datetime import datetime, timedelta, date
+from datetime import datetime, timedelta #, date
 
 def print_today_yesterday_lw_date():
     """Print today's date, yesterday;s date and last week this day"""

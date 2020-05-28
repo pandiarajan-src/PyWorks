@@ -5,13 +5,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{59dea611-7830-4c8d-9199-cf77c55a933f}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>tic_tac_toe.py</StartupFile>
+    <StartupFile>http_crud_example.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>MSBuild|env|$(MSBuildProjectFullPath)</InterpreterId>
+    <SuppressPackageInstallationPrompt>True</SuppressPackageInstallationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -22,34 +23,76 @@
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="anagrams_ex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="basic_socket_example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ceaser_ciper.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="collatz_hypothesis.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="collections_ex.py" />
     <Compile Include="conditions.py" />
+    <Compile Include="config_parser_example.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="converters_sample.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="csv_sample_phone_contact.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="date.py" />
     <Compile Include="decorator_ex.py" />
+    <Compile Include="digit_of_horscope_life.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="environment_ex.py" />
     <Compile Include="errorhandling.py" />
     <Compile Include="functions.py" />
-    <Compile Include="Helloworld.py" />
+    <Compile Include="hello_world.py" />
+    <Compile Include="http_crud_example.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="input_validate_int.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="json_ex.py" />
+    <Compile Include="logging_example.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="loops.py" />
     <Compile Include="module_ex.py" />
+    <Compile Include="my_find.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="my_split.py" />
-    <Compile Include="Numbers.py" />
+    <Compile Include="numbers_example.py" />
     <Compile Include="package_ex.py" />
+    <Compile Include="palindrome_ex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="print_exception_hierarcy.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="seven_segment_display.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="StandardPlot.py" />
+    <Compile Include="standard_plot.py" />
+    <Compile Include="sudoku_game.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="tic_tac_toe.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="todo_sqllite3_ex.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="xml_simple_parser.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

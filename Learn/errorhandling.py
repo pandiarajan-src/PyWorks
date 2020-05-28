@@ -1,5 +1,7 @@
+'''Learn error hander'''
 # There is a difference between error handling and debugging
-# Error handling : Something is happening outside of the expectation that I need to handle on the fly
+# Error handling :
+# Something is happening outside of the expectation that I need to handle on the fly
 #        Examples: Permission issue, DB down, server name change, etc...
 # Debugging : I know there is somthing wrong in the code that I am trying to fix
 #        Examples: App Crash, Output is wrong etc...
@@ -17,16 +19,14 @@
 # you don't have to capture all the errors, only un-expected failures to be captured.
 
 # Runtime error
-x = 100
-y = 0
+X = 100
+Y = 0
 
 try:
-    print (x/y)
-except ZeroDivisionError as e:
-    print (str(e))
+    print(X/Y)
+except ZeroDivisionError as ex_val:
+    print(str(ex_val))
 else:
-    print ("Don't know what is the error")
+    print("Don't know what is the error")
 finally:
     print("run final result " + str(0))
-
-
