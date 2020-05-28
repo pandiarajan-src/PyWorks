@@ -1,11 +1,10 @@
+'''Learn environment'''
+import os
 from dotenv import load_dotenv
 
 load_dotenv()
-import os
 
-pwd_value_from_dot_env = os.getenv("PASSWORD")
-what_to_use_from_dot_env = os.getenv("WHATTOUSE")
-print(pwd_value_from_dot_env)
-print(what_to_use_from_dot_env)
-
-
+PWD_VALUE_FROM_DOT_ENV = os.getenv("PASSWORD")
+WHAT_TO_USE_FROM_DOT_ENV = os.getenv("WHATTOUSE")
+print(PWD_VALUE_FROM_DOT_ENV)
+print(WHAT_TO_USE_FROM_DOT_ENV)

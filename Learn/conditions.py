@@ -1,10 +1,10 @@
-# Learn conditions
+'''Learn conditions by conditions'''
 
-tax_rate_user_input = input("what is your tax rate percentage? ")
-tax_rate = float(tax_rate_user_input)
-if 30 <= tax_rate:
+TAX_RATE_USER_INPUT = input("what is your tax rate percentage? ")
+TAX_RATE = float(TAX_RATE_USER_INPUT)
+if TAX_RATE >= 30:
     print("You are the rich person")
-elif (20 <= tax_rate) & (30 > tax_rate):
+elif (TAX_RATE >= 20) & (TAX_RATE > 30):
     print("You are the middle income person")
 else:
     print("You are the lower income person")
@@ -12,31 +12,31 @@ else:
 # String comparision is case sensitive
 
 # Are you from India?
-country_user_input = input("Which country you are from? ")
-if country_user_input.lower() == "india":
+COUNTRY_USER_INPUT = input("Which country you are from? ")
+if COUNTRY_USER_INPUT.lower() == "india":
     print("You are from India")
 else:
-    print("You are not from India, you are from : {0}".format(country_user_input.upper()))
+    print("You are not from India, you are from : {0}".format(COUNTRY_USER_INPUT.upper()))
 
 # Are you from BRICS country?
-if country_user_input.lower() in ('india', \
+if COUNTRY_USER_INPUT.lower() in ('india', \
                                 'china', 'russia', 'brazil'):
     print("You are from BRICS group of country")
 else:
-    print ("You are not part of BRICS country")
+    print("You are not part of BRICS country")
 
 # Are you from NATA group countries
 # or condition example
-if country_user_input.lower() == 'usa' or \
-    country_user_input.lower() == 'canada' or \
-    country_user_input.lower() == 'mexico':
+if COUNTRY_USER_INPUT.lower() == 'usa' or \
+    COUNTRY_USER_INPUT.lower() == 'canada' or \
+    COUNTRY_USER_INPUT.lower() == 'mexico':
     print("You are from NATA (North America Trade agreement) country")
 else:
     print("You are not from NATA (North America Trade agreement) countries")
 
-if country_user_input.lower() == 'usa' and \
-    tax_rate <= 30:
-    if(tax_rate <= 20):
+if COUNTRY_USER_INPUT.lower() == 'usa' and \
+    TAX_RATE <= 30:
+    if TAX_RATE <= 20:
         print("You are low income group person")
     else:
         print("You are middle income group person")
