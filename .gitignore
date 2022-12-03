@@ -4,3 +4,4 @@ Plural/*
 *.log
 /Learn/test.xml
 /Learn/phone_contacts.csv
+.DS_Store
