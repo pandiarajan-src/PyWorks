@@ -6,3 +6,7 @@ Plural/*
 /Learn/phone_contacts.csv
 .DS_Store
 try.py
+.venv/
+IKJourney/projects/PythonFundamentals-1/__pycache__/*
+IKJourney/projects/PythonFundamentals-2/__pycache__/*
+IKJourney/projects/Leetcode/__pycache__/*
