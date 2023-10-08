@@ -52,11 +52,12 @@ def single_number(arr):
     arr.sort()
     print(arr)
     for index in range(0, len(arr), 2):
-        if index == len(arr)-1:
+        if index == len(arr) - 1:
             return arr[index]
-        if arr[index] != arr[index+1]:
+        if arr[index] != arr[index + 1]:
             return arr[index]
     return 0
+
 
 di = dict()
 di.popitem()
