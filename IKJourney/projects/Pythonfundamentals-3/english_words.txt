@@ -1,0 +1,4 @@
+Hello World
+How are you doing?
+This is a test file to read longest string in a text file.
+The longest string is the longest in itself.
