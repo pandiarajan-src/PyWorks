@@ -6,6 +6,6 @@ mccabe==0.6.1
 pip==21.1
 pylint==2.4.4
 python-dotenv==0.13.0
-setuptools==41.2.0
+setuptools==65.5.1
 six==1.14.0
 wrapt==1.11.2
